@@ -22,6 +22,9 @@ const AuthorType = new GraphQLObjectType({
     }),
 });
 
+
+
+
 const BookType = new GraphQLObjectType({
     name: 'Book',
     fields: () => ({
@@ -36,6 +39,8 @@ const BookType = new GraphQLObjectType({
         },
     }),
 });
+
+
 
 
 
@@ -119,20 +124,6 @@ const Mutation = new GraphQLObjectType({
 				);
 			},
 		},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	}
